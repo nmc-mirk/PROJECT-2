@@ -9,18 +9,27 @@ body{
 p{
   margin:0px;
 }
+.bg{
+  width:1500px;
+  height: 1673px;
+  background-repeat: no-repeat;
+  background-image: url(../img/claymore_header.png);
+  filter: blur(5px);
+  position:relative;
+}
 .header_section{
   display:flex;
   justify-content: center;
   width:1500px;
   height: 1673px;
-  background-repeat: no-repeat;
-  background-image: url(../img/header_bg.png);
 }
 .header_section__content{
   width:940px;
   height: 100%;
   margin-top: 70px;
+  position: absolute;
+  top:0.1px;
+  
 }
 .header_section__content__logo_navbar{
   width:100%;
