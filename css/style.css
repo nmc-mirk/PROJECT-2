@@ -60,14 +60,14 @@ p{
 .navbar-expand-lg .navbar-nav .nav-link{
   padding-left: 1rem;
 }
-a {
+.nav-link {
   line-height: 2;
   display: inline-block;
   color:#1abc9c;
   text-decoration:none;
   cursor: pointer;
 }
-a:after {
+.nav-link:after {
   display: block;
   content: "";
   height: 3px;
@@ -75,8 +75,8 @@ a:after {
   background-color: #1abc9c;
   transition: width .3s ease-in-out;
 }
-a:hover:after,
-a:focus:after {
+.nav-link:hover:after,
+.nav-link:focus:after {
     width: 100%;
 }
 
