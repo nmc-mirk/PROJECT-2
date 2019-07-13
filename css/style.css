@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=Dancing+Script&display=swap');
-
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script:400,600,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&display=swap');
 body{
 	padding: unset;
 	margin: 0px;
@@ -7,11 +7,12 @@ body{
   font-size: 16px;
 }
 p{
+  font-family: 'Open Sans', sans-serif;
   margin:0px;
 }
 .bg{
   width:1500px;
-  height: 1673px;
+  height: 879px;
   background-repeat: no-repeat;
   background-image: url(../img/claymore_header.png);
   filter: blur(5px);
@@ -29,13 +30,11 @@ p{
   margin-top: 70px;
   position: absolute;
   top:0.1px;
-  
 }
 .header_section__content__logo_navbar{
   width:100%;
   display: flex;
 	Flex-direction: row;
-
 }
 .header_section__content__logo_navbar__logo{
   height: 66px;
@@ -79,7 +78,6 @@ p{
 .nav-link:focus:after {
     width: 100%;
 }
-
 .btn{
   color: white;
 }
@@ -88,10 +86,89 @@ p{
 }
 .header_section__content__promo{
   width:100%;
+  margin-top:187px;
+}
+.header_section__content__promo{
+  display: inline-flex;
+}
+.header_section__content__promo__content{
+  margin: 60px 4.3% 0px;
+}
+.promo__content__header{
+  font-size: 27px;
+  font-weight: 600;
+  padding-bottom: 30px;
+  text-align: center;
+  color: white;
+}
+.promo__content__content{
+  font-size: 15.5px;
+  font-weight: 600;
+  color: white;
+}
+.promo__content__buttons{
+  width:100%;
+  display: inline-flex;
+  height: 58px;
+  margin-top: 63px;
+}
+.promo__content__purchase{
+  font-family: 'Open Sans', sans-serif;
+  background-color: #1abc9c;
+  width:171px;
+  height: 100%;
+  text-align: center;
+  border-radius: 4px;
+  padding-top: 16px;
+  margin-right: 3.5%;
+}
+.promo__content__or{
+  position: absolute;
+  font-family: 'Open Sans', sans-serif;
+  height:30px;
+  width:30px;
+  text-align: center;
+  margin:15px 0px;
+  background-color: white;
+	border-radius: 50%;
+  padding-top: 2px;
+  left: 65.9%;
+}
+.promo__content__learn{
+  font-family: 'Open Sans', sans-serif;
+  background-color: #3498db;
+  width:171px;
+  height: 100%;
+  text-align: center;
+  border-radius: 4px;
+  padding-top: 16px;
 }
 .header_section__content__about{
+  display: inline-flex;
   width:100%;
+  margin-top: 115px;
+}
+.header_section__about__text{
+  width: 56%;
+}
+.about__text__header{
+  font-size: 27px;
+  margin-bottom: 30px;
+}
+.about__text__content{
+  font-size: 15.5px;
+}
+.header_section__about__stats{
+  width: 44%;
+  display:flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  margin-bottom: 10px;
+}
+.about__stats__pic_small{
+margin-left: 4%;
 }
 .header_section__content__advantages{
+  margin-top: 205px;
   width:100%;
 }
