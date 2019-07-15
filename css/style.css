@@ -10,6 +10,9 @@ p{
   font-family: 'Open Sans', sans-serif;
   margin:0px;
 }
+h1{
+  font-size: 70px;
+}
 .bg{
   width:1500px;
   height: 879px;
@@ -22,7 +25,7 @@ p{
   display:flex;
   justify-content: center;
   width:1500px;
-  height: 1673px;
+  height: 820px;
 }
 .header_section__content{
   width:940px;
@@ -209,4 +212,94 @@ p{
   font-size: 13.5px;
   margin-top: 25px;
   font-weight: 400;
+}
+
+.bg1{
+  width:1500px;
+  height: 515px;
+  background-repeat: no-repeat;
+  background-image: url(../img/bg1.png);
+  filter: blur(5px);
+  position:relative;
+}
+.body_section{
+  display:flex;
+  justify-content: center;
+  width:1500px;
+}
+.body_section__content{
+  width:940px;
+  height: 100%;
+  position: absolute;
+  top:1875px;
+}
+.carousel_text{
+  position: absolute;
+  top: 1763px;
+  text-align: center;
+  font-weight: 600;
+  color: white;
+}
+.carousel_text__header{
+  font-size: 27px;
+}
+.carousel_text__body{
+  font-size: 15.5px;
+  margin-bottom: 100px;
+}
+.carousel-control-next-icon {
+  background-image: url(../img/arrow_right.png);
+}
+.carousel-control-prev-icon {
+  background-image: url(../img/arrow_left.png);
+}
+.carousel-control-next-icon, .carousel-control-prev-icon {
+  width: 50px;
+  height: 85px;
+}
+.carousel-control-prev {
+  left: -62px;
+}
+.carousel-control-next {
+  right: -62px;
+}
+.carousel-control-next, .carousel-control-prev {
+  top: -325px;
+}
+.carousel-control-next, .carousel-control-prev {
+  opacity: 1;
+}
+.body_section__content__comment_header{
+  text-align: center;
+  margin-bottom: 70px;
+}
+.body_section__content__comment_content{
+  display:flex;
+  flex-wrap: wrap;
+}
+.comment{
+  display: inline-flex;
+  width:50%;
+  margin-bottom:35px;
+}
+.comment_hexagon{
+  height: 156px;
+  width: 142px;
+  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+  background: #2c3e50;
+}
+.comment_text{
+  display:flex;
+  flex-direction: column;
+  width:68%;
+  margin-left:25px;
+}
+.comment_header{
+  font-size:20px;
+  font-weight: 600;
+  margin-top:25px;
+}
+.comment_body{
+  font-size:13.5px;
+  margin-top:25px;
 }
