@@ -227,6 +227,7 @@ h1{
   display:flex;
   justify-content: center;
   width:1500px;
+  height: 987px;
 }
 .body_section__content{
   width:940px;
@@ -334,4 +335,81 @@ h1{
 .comment_body{
   font-size:13.5px;
   margin-top:25px;
+}
+
+
+.bottom_section{
+  display:flex;
+  justify-content: center;
+  width:1500px;
+  background-color: #34495e;
+}
+.bottom_section__content{
+  margin-top: 110px;
+  display: inline-flex;
+  width:940px;
+  height: 100%;
+}
+.bottom_section__content__contacts{
+  width:50%;
+}
+.contacts__header{
+  font-size: 20px;
+  font-weight: 600;
+  color: white;
+}
+.contacts__content{
+  margin-top: 25px;
+  font-size: 13.5px;
+  font-weight: 600;
+  color: white;
+  margin-bottom: 40px;
+}
+.contacts__contacts{
+  display: flex;
+  flex-direction: column;
+}
+.contacts__item{
+  display: inline-flex;
+  margin-top:15px;
+}
+.contacts__text{
+  font-size: 13.5px;
+  font-weight: 600;
+  color: white;
+  margin-left: 10px;
+}
+.bottom_section__content__form{
+  display: flex;
+  justify-content: flex-end;
+  margin-left:70px;
+}
+.form-row>.col{
+  padding-right: 10px;
+}
+.form-row>[class*=col-] {
+  padding-left: 10px;
+}
+.form-row>.col, .form-row>[class*=col-] {
+  margin-bottom: 15px;
+}
+.form-control {
+  margin-top: 15px;
+  background-color: #5d6d7e;
+  border: 1px solid #ced4da00;
+  color: white;
+}
+.form-group{
+  color:white;
+}
+.form_buttons{
+  margin-top: 17px;
+  display: flex;
+  float: right;
+}
+.form-group {
+  margin-bottom: 0rem;
+}
+.btn-primary {
+  margin-right: 4.5%;
 }
