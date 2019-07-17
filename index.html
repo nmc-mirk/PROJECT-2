@@ -1,8 +1,6 @@
 <!DOCTYPE html>
-
 </html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -12,7 +10,6 @@
   <link rel="stylesheet" href="./css/style.css">
   <title>Claymore</title>
 </head>
-
 <body>
   <div class="bg"></div>
   <div class="header_section">
@@ -33,19 +30,16 @@
                   <a class="nav-link" href="#">Home</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">About</a>
+                  <a class="nav-link" href="#about">About</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Service</a>
+                  <a class="nav-link" href="#service">Service</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Features</a>
+                  <a class="nav-link" href="#feedback">Feedback</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Price</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Contact</a>
+                  <a class="nav-link" href="#contact">Contact</a>
                 </li>
               </ul>
             </div>
@@ -60,15 +54,13 @@
             as massa non, elementum sem. Suspendisse mollis nulla
             eu lorem ultricies dapibus.</p>
           <div class="promo__content__buttons">
-            <!--  <div class="promo__content__purchase">Purchase now</div> -->
             <button type="button" class="btn btn-primary">Purchase now</button>
             <div class="promo__content__or">or</div>
             <button type="button" class="btn btn-info">Learn more</button>
-            <!--  <div class="promo__content__learn">Learn more</div> -->
           </div>
         </div>
       </div>
-      <div class="header_section__content__about">
+      <div class="header_section__content__about" id="about">
         <div class="header_section__about__text">
           <p class="about__text__header">About us</p>
           <p class="about__text__content">Sed non massa quis nisl tincidunt posuere sit amet vitae sem. Praesent
@@ -106,7 +98,7 @@
   </div>
   <div class="bg1"></div>
   <div class="body_section">
-    <div class="carousel_text">
+    <div class="carousel_text" id="service">
       <p class="carousel_text__header">Lorem ipsum dolor sit amet</p>
       <p class="carousel_text__body">
         consectetur adipiscing elit. Maecenas facilisis ligula non ornare vehicula.</p>
@@ -133,7 +125,7 @@
           <span class="sr-only">Next</span>
         </a>
       </div>
-      <div class="body_section__content__comment_header">
+      <div class="body_section__content__comment_header" id="feedback">
         <h1>What people say</h1>
       </div>
       <div class="body_section__content__comment_content">
@@ -189,7 +181,7 @@
     </div>
   </div>
   <div class="bottom_section">
-    <div class="bottom_section__content">
+    <div class="bottom_section__content" id="contact">
       <div class="bottom_section__content__contacts">
         <p class="contacts__header">
           Curabitur ornare neque</p>
@@ -212,17 +204,18 @@
           </div>
         </div>
       </div>
+
       <div class="bottom_section__content__form">
         <form>
           <div class="form-row">
             <div class="col">
-              <input type="text" class="form-control" placeholder=" your name">
+              <input type="text" class="form-control" placeholder="your name">
             </div>
             <div class="form-group col-md-6">
-              <input type="email" class="form-control" id="inputEmail4" placeholder=" your email">
+              <input type="email" class="form-control" id="inputEmail4" placeholder="your email">
             </div>
           </div>
-          <select class="form-control">
+          <select class="custom-select">
             <option value="">your subject</option>
             <option value="1">One</option>
             <option value="2">Two</option>
@@ -230,7 +223,7 @@
           </select>
           <div class="form-group">
             <textarea class="form-control" id="exampleFormControlTextarea1" rows="6"
-              placeholder=" your message"></textarea>
+              placeholder="your message"></textarea>
           </div>
           <div class="form_buttons">
             <input type="reset" value="Reset" class="btn btn-primary">
@@ -239,8 +232,13 @@
         </form>
       </div>
     </div>
+    <div class="bottom_triangle"></div>
   </div>
-
+  <div class="footer_section">
+    <div class="footer_section__content">
+      <p class="footer_section__content__text">Copyright 2013-2014 @andreyyan, All right reserved.</p>
+    </div>
+  </div>
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
     integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
     crossorigin="anonymous"></script>
@@ -250,7 +248,5 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
     integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
     crossorigin="anonymous"></script>
-
 </body>
-
 </html>
