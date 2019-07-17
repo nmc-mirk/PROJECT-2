@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Dancing+Script:400,600,700&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&display=swap');
 body{
-	margin: unset;
   width: 1500px;
   margin: 0 auto;
 	font-weight: 400;
@@ -10,10 +9,12 @@ body{
 p{
   font-family: 'Open Sans', sans-serif;
   margin:0px;
+  font-size: 16px;
 }
 h1{
   font-size: 70px;
 }
+/* ВЕРХНЯЯ СЕКЦИЯ С ФОНОМ */
 .bg{
   width:100%;
   height: 879px;
@@ -25,7 +26,7 @@ h1{
 .header_section{
   display:flex;
   justify-content: center;
-  width:1500px;
+  width:100%;
   height: 820px;
 }
 .header_section__content{
@@ -103,7 +104,7 @@ h1{
   font-weight: 600;
   padding-bottom: 30px;
   text-align: center;
-  color: white;
+  color: white
 }
 .promo__content__content{
   font-size: 15.5px;
@@ -195,8 +196,9 @@ h1{
   margin-top: 25px;
   font-weight: 400;
 }
+/* СРЕДНЯЯ СЕКЦИЯ С ФОНОМ */
 .bg1{
-  width:1500px;
+  width:100%;
   height: 515px;
   background-repeat: no-repeat;
   background-image: url(../img/bg1.png);
@@ -206,7 +208,7 @@ h1{
 .body_section{
   display:flex;
   justify-content: center;
-  width:1500px;
+  width:100%;
   height: 987px;
 }
 .body_section__content{
@@ -316,10 +318,11 @@ h1{
   font-size:13.5px;
   margin-top:25px;
 }
+/* СЕКЦИЯ КОНТАКТОВ */
 .bottom_section{
   display:flex;
   justify-content: center;
-  width:1500px;
+  width:100%;
   background-color: #34495e;
   position: relative;
 }
@@ -382,6 +385,7 @@ h1{
 .custom-select{    
   color: #bec5cb;
   background: url(../img/form_arrow.png);
+  background-size:15px;
   background-color: #5d6d7e;
   background-repeat: no-repeat;
   background-position: right;
@@ -406,10 +410,11 @@ h1{
   bottom: -1%;
   position: absolute;
 }
+/* СЕКЦИЯ АВТОРСТВА */
 .footer_section{
   display:flex;
   justify-content: center;
-  width:1500px;
+  width:100%;
   background-color: #2c3e50;
 }
 .footer_section__content{
@@ -425,3 +430,551 @@ h1{
   color: white;
   margin: 70px 0px;
 }
+@media all and (max-width: 1025px){
+}
+@media all and (max-width: 769px){
+  .carousel_text {
+    width: 545px;
+}
+}
+@media all and (max-width: 426px){
+}
+@media all and (max-width: 376px){
+}
+@media all and (max-width: 321px){
+body{
+  width: 320px;
+  margin: 0 auto;
+  font-weight: 400;
+  font-size: 3.2px;
+}
+h1{
+  font-size: 14px;
+}
+p{
+  font-size: 3.2px
+}
+/* ВЕРХНЯЯ СЕКЦИЯ С ФОНОМ */
+.bg{
+  height: 176px;
+  filter: blur(5px);
+  width:320px;
+}
+.header_section{
+  height: 164px;
+  width:320px;
+}
+.header_section__content{
+  width:188px;
+  margin-top: 14px;
+  top:0.1px;
+}
+.header_section__content__logo_navbar{
+  width:320px;
+}
+.header_section__content__logo_navbar__navbar{
+  width:188px;
+}
+.header_section__content__logo_navbar__logo{
+  height: 13px;
+  width: 32px;
+  font-size:10px;
+}
+.logo{
+  margin-top: -2px;
+  font-size:10px;
+}
+.navbar-expand-lg .navbar-nav .nav-link{
+  padding-left: 1rem;
+}
+.nav-link{
+  line-height: 2;
+}
+.nav-link:after{
+  height: 0.6px;
+}
+.navbar-toggler {
+  padding: .05rem .15rem;
+  font-size: 0.25rem;
+}
+.header_section__content__promo__ipad{
+  width: 83px;
+  height: 108px;
+}
+.header_section__content__promo{
+  margin-top:37px;
+  width:188px;
+}
+.header_section__content__promo__content{
+  margin: 12px 4.3% 0px;
+  width: 45%;
+}
+.promo__content__header{
+  font-size: 5.4px;
+  padding-bottom: 6px;
+}
+.promo__content__content{
+  font-size: 3.1px;
+}
+.promo__content__buttons{
+  height: 11.6px;
+  margin-top: 12.6px;
+  width: 100%;
+}
+.btn-primary{
+  width:34.2px;
+}
+.btn-info{
+  width:34.2px;
+}
+.promo__content__or{
+  height:6px;
+  width:6px;
+  margin:2px 0px;
+  padding-top: 0.4px;
+  left: 61.4%;
+}
+.header_section__content__about{
+  margin-top: 23px;
+  width:100%;
+}
+.about__text__header{
+  font-size: 5.2px;
+  margin-bottom: 6px;
+}
+.about__text__content{
+  font-size: 3.1px;
+}
+.header_section__about__stats{
+  margin-bottom: 2px;
+  width: 44%;
+}
+.header_section__content__advantages{
+  margin: 41px 0px 20px;
+  width:188px;
+}
+.about__stats__pic{
+width:28.4px;
+height:28.8px;
+}
+.about__stats__pic_small{
+  width:16.2px;
+  height:16.6px;
+}
+.advantages__browser_pic{
+  width:19.8px;
+  height:17px;
+}
+.advantages__love_pic{
+  width:18px;
+  height:17.2px;
+}
+.advantages__responsive_pic{
+  width:18px;
+  height:17.2px;
+}
+
+
+.figcaption_header{
+  font-size: 4px;
+  margin-top: 5px;
+}
+.figcaption_body{
+  font-size: 2.7px;
+  margin-top: 5px;
+}
+/* СРЕДНЯЯ СЕКЦИЯ С ФОНОМ */
+.bg1{
+  height: 103px;
+  filter: blur(1px);
+  width:320px;
+}
+.body_section{
+  height: 197.4px;
+  width:320px;
+}
+.body_section__content{
+  width:188px;
+  top:375px;
+}
+.carousel_text{
+  top: 352.6px;
+  width: 45%;
+}
+.carousel_text__header{
+  font-size: 5.4px;
+}
+.carousel_text__body{
+  font-size: 3.1px;
+  margin-bottom: 20px;
+}
+.carousel-control-next-icon, .carousel-control-prev-icon {
+  width: 10px;
+  height: 17px;
+}
+.carousel-control-prev {
+  left: -12.4px;
+}
+.carousel-control-next {
+  right: -12.4px;
+}
+.carousel-control-next, .carousel-control-prev {
+  top: -65px;
+}
+.body_section__content__comment_header{
+  margin-bottom: 14px;
+}
+.body_section__content__comment_content{
+  margin-bottom:20px;
+}
+.comment{
+  margin-bottom:7px;
+}
+.comment_hexagon1{
+  height: 31.2px;
+  width: 28.4px;
+}
+.comment_hexagon2{
+  height: 31.2px;
+  width: 28.4px;
+}
+.comment_hexagon3{
+  height: 31.2px;
+  width: 28.4px;
+}
+.comment_hexagon4{
+  height: 31.2px;
+  width: 28.4px;
+}
+.comment_hexagon5{
+  height: 31.2px;
+  width: 28.4px;
+}
+.comment_hexagon6{
+  height: 31.2px;
+  width: 28.4px;
+}
+.comment_text{
+  margin-left:5px;
+}
+.comment_header{
+  font-size:4px;
+  margin-top:5px;
+}
+.comment_body{
+  font-size:2.7px;
+  margin-top:5px;
+}
+/* СЕКЦИЯ КОНТАКТОВ */
+.bottom_section{
+  width:320px;
+}
+.bottom_section__content{
+  margin: 22px 0px 23px;
+  width:188px;
+}
+.contacts__header{
+  font-size: 4px;
+}
+.contacts__content{
+  margin-top: 5px;
+  font-size: 2.8px;
+  margin-bottom: 8px;
+}
+.contacts__item{
+  margin-top:3px;
+}
+.contacts__location_pic{
+width:3px;
+height:4px;
+}
+.contacts__phone_pic{
+  width:3px;
+  height:4px;
+}
+.contacts__mail_pic{
+  width:4px;
+  height:3px;
+}
+.contacts__text{
+  font-size: 2.7px;
+  margin-left: 2px;
+}
+.bottom_section__content__form{
+  margin-left:14px;
+}
+.form-row>.col{
+  padding-right: 2px;
+}
+.form-row>[class*=col-]{
+  padding-left: 2px;
+  width: 50px;
+}
+.form-row>.col, .form-row>[class*=col-]{
+  margin-bottom: 3px;
+  width: 50px;
+}
+.form-control{
+  margin-top: 3px;
+  font-size: 3px;
+  height: 14px;
+  padding: .1rem .3rem;
+}
+.form_buttons{
+  margin-top: 3.4px;
+}
+.btn-info{
+  font-size: 3px;
+  height: 10px;
+  width: 25px;
+  padding: 0px;
+}
+.btn-primary{
+  font-size: 3px;
+  height: 10px;
+  width: 25px;
+  padding: 0px;
+}
+.form-control::placeholder{
+  color: #bec5cb;
+  font-size: 3px;
+}
+.custom-select{
+  font-size: 3px;
+  height: 14px;
+  padding: 0 0.3rem;
+}
+.bottom_triangle{
+  height:6px;
+  width:6px;
+}
+/* СЕКЦИЯ АВТОРСТВА */
+.footer_section{
+  width:320px;
+}
+.footer_section__content{
+  width:188px;
+}
+.footer_section__content__text{
+  font-size: 2.7px;
+  margin: 14px 0px;
+}
+}
+
+
+
+
+
+
+
+/* h1{
+  font-size: 70px;
+}
+.bg{
+  height: 879px;
+  filter: blur(5px);
+}
+.header_section{
+  height: 820px;
+}
+.header_section__content{
+  width:940px;
+  margin-top: 70px;
+  top:0.1px;
+}
+.header_section__content__logo_navbar__logo{
+  height: 66px;
+  width: 161px;
+  font-size:50px;
+}
+.logo{
+  margin-top: -10px;
+}
+.navbar-expand-lg .navbar-nav .nav-link{
+  padding-left: 1rem;
+}
+.nav-link{
+  line-height: 2;
+}
+.nav-link:after{
+  height: 3px;
+}
+.header_section__content__promo{
+  margin-top:187px;
+}
+.header_section__content__promo__content{
+  margin: 60px 4.3% 0px;
+}
+.promo__content__header{
+  font-size: 27px;
+  padding-bottom: 30px;
+}
+.promo__content__content{
+  font-size: 15.5px;
+}
+.promo__content__buttons{
+  height: 58px;
+  margin-top: 63px;
+}
+.btn-primary{
+  width:171px;
+}
+.btn-info{
+  width:171px;
+}
+.promo__content__or{
+  height:30px;
+  width:30px;
+  margin:15px 0px;
+  padding-top: 2px;
+}
+.header_section__content__about{
+  margin-top: 115px;
+}
+.about__text__header{
+  font-size: 27px;
+  margin-bottom: 30px;
+}
+.about__text__content{
+  font-size: 15.5px;
+}
+.header_section__about__stats{
+  margin-bottom: 10px;
+}
+.header_section__content__advantages{
+  margin: 205px 0px 100px;
+}
+.figcaption_header{
+  font-size: 20px;
+  margin-top: 25px;
+}
+.figcaption_body{
+  font-size: 13.5px;
+  margin-top: 25px;
+}
+.bg1{
+  height: 515px;
+  filter: blur(5px);
+}
+.body_section{
+  height: 987px;
+}
+.body_section__content{
+  width:940px;
+  top:1875px;
+}
+.carousel_text{
+  top: 1763px;
+}
+.carousel_text__header{
+  font-size: 27px;
+}
+.carousel_text__body{
+  font-size: 15.5px;
+  margin-bottom: 100px;
+}
+.carousel-control-next-icon, .carousel-control-prev-icon {
+  width: 50px;
+  height: 85px;
+}
+.carousel-control-prev {
+  left: -62px;
+}
+.carousel-control-next {
+  right: -62px;
+}
+.carousel-control-next, .carousel-control-prev {
+  top: -325px;
+}
+.body_section__content__comment_header{
+  margin-bottom: 70px;
+}
+.body_section__content__comment_content{
+  margin-bottom:100px;
+}
+.comment{
+  margin-bottom:35px;
+}
+.comment_hexagon1{
+  height: 156px;
+  width: 142px;
+}
+.comment_hexagon2{
+  height: 156px;
+  width: 142px;
+}
+.comment_hexagon3{
+  height: 156px;
+  width: 142px;
+}
+.comment_hexagon4{
+  height: 156px;
+  width: 142px;
+}
+.comment_hexagon5{
+  height: 156px;
+  width: 142px;
+}
+.comment_hexagon6{
+  height: 156px;
+  width: 142px;
+}
+.comment_text{
+  margin-left:25px;
+}
+.comment_header{
+  font-size:20px;
+  margin-top:25px;
+}
+.comment_body{
+  font-size:13.5px;
+  margin-top:25px;
+}
+.bottom_section__content{
+  margin: 110px 0px 115px;
+  width:940px;
+}
+.contacts__header{
+  font-size: 20px;
+}
+.contacts__content{
+  margin-top: 25px;
+  font-size: 14px;
+  margin-bottom: 40px;
+}
+.contacts__item{
+  margin-top:15px;
+}
+.contacts__text{
+  font-size: 13.5px;
+  margin-left: 10px;
+}
+.bottom_section__content__form{
+  margin-left:70px;
+}
+.form-row>.col{
+  padding-right: 10px;
+}
+.form-row>[class*=col-]{
+  padding-left: 10px;
+}
+.form-row>.col, .form-row>[class*=col-]{
+  margin-bottom: 15px;
+}
+.form-control{
+  margin-top: 15px;
+}
+.form_buttons{
+  margin-top: 17px;
+}
+.bottom_triangle{
+  height:30px;
+  width:30px;
+}
+.footer_section__content{
+  width:940px;
+}
+.footer_section__content__text{
+  font-size: 13.5px;
+  margin: 70px 0px;
+} */
