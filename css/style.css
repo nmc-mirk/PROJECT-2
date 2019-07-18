@@ -14,15 +14,24 @@ p{
 h1{
   font-size: 70px;
 }
+
+
 /* ВЕРХНЯЯ СЕКЦИЯ С ФОНОМ */
 .bg{
-  width:100%;
+  width:1500px;
   height: 879px;
-  background-repeat: no-repeat;
-  background-image: url(../img/claymore_header.png);
-background-size: 100%;
-  filter: blur(3px);
+  background-repeat: no-repeat;/* 
+  background-image: url(../img/claymore_header.png); 
+background-size: 100%; 
+  filter: blur(3px); */
   position:relative;
+  overflow:hidden;
+}
+.bg_pic{
+  filter: blur(3px);
+  position: absolute;
+  width:1600px;
+  top: -3px;
 }
 .header_section{
   display:flex;
@@ -105,7 +114,6 @@ background-size: 100%;
   font-size: 27px;
   font-weight: 600;
   padding-bottom: 30px;
-  text-align: center;
   color: white
 }
 .promo__content__content{
@@ -202,10 +210,16 @@ background-size: 100%;
 .bg1{
   width:100%;
   height: 515px;
-  background-repeat: no-repeat;
-  background-image: url(../img/bg1.png);
-  filter: blur(5px);
+  background-repeat: no-repeat;/* 
+  background-image: url(../img/bg1.png); */
   position:relative;
+  overflow: hidden;
+}
+.bg1_pic{
+  filter: blur(5px);
+  position: absolute;
+  width: 1510px;
+  top: -3px;
 }
 .body_section{
   display:flex;
@@ -440,9 +454,330 @@ background-size: 100%;
 @media all and (max-width: 1025px){
 }
 @media all and (max-width: 769px){
-  .carousel_text {
-    width: 545px;
-}
+  body{
+    width: 768px;
+    margin: 0 auto;
+    font-weight: 400;
+    font-size: 7.68px;
+  }
+  h1{
+    font-size: 33.6px;
+  }
+  p{
+    font-size: 7.68px
+  }
+  /* ВЕРХНЯЯ СЕКЦИЯ С ФОНОМ */
+  .bg{
+    height: 422.4px;
+    filter: blur(5px);
+    /* width:320px; */
+    max-width: 100%;
+    background-size: 100%
+  }
+  .header_section{
+    height: 393.6px;
+    width:768px;
+  }
+  .header_section__content{
+    width:451.2px;
+    margin-top: 33.6px;
+    top:0.1px;
+  }
+  .header_section__content__logo_navbar{
+    width: 100%;
+  }
+  .header_section__content__logo_navbar__navbar{
+    width: 100%;
+  }
+  .header_section__content__logo_navbar__logo{
+    height: 31.2px;
+    width: 76.8px;
+    font-size:2.4px;
+  }
+  .logo{
+    margin-top: -2px;
+    font-size:24px;
+  }
+  .navbar-expand-lg .navbar-nav .nav-link{
+    padding-left: 1rem;
+  }
+  .nav-link{
+    line-height: 2;
+  }
+  .nav-link:after{
+    height: 1.44px;
+  }
+  .navbar-toggler {
+    padding: .05rem .15rem;
+    font-size: 0.25rem;
+  }
+  .header_section__content__promo__ipad{
+    width: 199.2px;
+    height: 259.2px;
+  }
+  .header_section__content__promo{
+    margin-top:88.8px;
+    width:451.2px;
+  }
+  .header_section__content__promo__content{
+    margin: 28.8px 4.3% 0px;
+    width: 45%;
+  }
+  .promo__content__header{
+    font-size: 12.96px;
+    padding-bottom: 14.4px;
+  }
+  .promo__content__content{
+    font-size: 7.44px;
+  }
+  .promo__content__buttons{
+    height: 27.84px;
+    margin-top: 30.24px;
+    width: 100%;
+  }
+  .btn-primary{
+    width:82.08px;
+  }
+  .btn-info{
+    width:82.08px;
+  }
+  .promo__content__or{
+    height:14.4px;
+    width:14.4px;
+    margin:4.8px 0px;
+    padding-top: 0.96px;
+    left: 61.4%;
+  }
+  .header_section__content__about{
+    margin-top: 55.2px;
+    width:100%;
+  }
+  .about__text__header{
+    font-size: 12.48px;
+    margin-bottom: 14.4px;
+  }
+  .about__text__content{
+    font-size: 7.44px;
+  }
+  .header_section__about__stats{
+    margin-bottom: 4.8px;
+    width: 44%;
+  }
+  .header_section__content__advantages{
+    margin: 98.4px 0px 20px;
+    width:451.2px;
+  }
+  .about__stats__pic{
+  width:68.16px;
+  height:68.16px;
+  }
+  .about__stats__pic_small{
+    width:38.88px;
+    height:39.84px;
+  }
+  .advantages__browser_pic{
+    width:47.52px;
+    height:40.8px;
+  }
+  .advantages__love_pic{
+    width:43.2px;
+    height:41.28px;
+  }
+  .advantages__responsive_pic{
+    width:43.2px;
+    height:41.28px;
+  }
+  
+  
+  .figcaption_header{
+    font-size: 9.6px;
+    margin-top: 12px;
+  }
+  .figcaption_body{
+    font-size: 6.48px;
+    margin-top: 12px;
+  }
+  /* СРЕДНЯЯ СЕКЦИЯ С ФОНОМ */
+  .bg1{
+    height: 247.2px;
+    filter: blur(1px);
+    width:768px;
+    background-size: 100%
+  }
+  .body_section{
+    height: 473.76px;
+    width:768px;
+  }
+  .body_section__content{
+    width:451.2px;
+    top:900px;
+  }
+  .carousel_text{
+    top: 846.24px;
+    width: 45%;
+  }
+  .carousel_text__header{
+    font-size: 12.96px;
+  }
+  .carousel_text__body{
+    font-size: 7.44px;
+    margin-bottom: 48px;
+  }
+  .carousel-control-next-icon, .carousel-control-prev-icon {
+    width: 24px;
+    height: 40.8px;
+  }
+  .carousel-control-prev {
+    left: -29.76px;
+  }
+  .carousel-control-next {
+    right: -29.76px;
+  }
+  .carousel-control-next, .carousel-control-prev {
+    top: -156px;
+  }
+  .body_section__content__comment_header{
+    margin-bottom: 33.6px;
+  }
+  .body_section__content__comment_content{
+    margin-bottom:48px;
+  }
+  .comment{
+    margin-bottom:16.8px;
+  }
+  .comment_hexagon1{
+    height: 74.88px;
+    width: 68.16px;
+  }
+  .comment_hexagon2{
+    height: 74.88px;
+    width: 68.16px;
+  }
+  .comment_hexagon3{
+    height: 74.88px;
+    width: 68.16px;
+  }
+  .comment_hexagon4{
+    height: 74.88px;
+    width: 68.16px;
+  }
+  .comment_hexagon5{
+    height: 74.88px;
+    width: 68.16px;
+  }
+  .comment_hexagon6{
+    height: 74.88px;
+    width: 68.16px;
+  }
+  .comment_text{
+    margin-left:12px;
+  }
+  .comment_header{
+    font-size:9.6px;
+    margin-top:12px;
+  }
+  .comment_body{
+    font-size:6.48px;
+    margin-top:12px;
+  }
+  /* СЕКЦИЯ КОНТАКТОВ */
+  .bottom_section{
+    width:768px;
+  }
+  .bottom_section__content{
+    margin: 52.8px 0px 55.2px;
+    width:451.2px;
+  }
+  .contacts__header{
+    font-size: 9.6px;
+  }
+  .contacts__content{
+    margin-top: 28.8px;
+    font-size: 6.72px;
+    margin-bottom: 19.2px;
+  }
+  .contacts__item{
+    margin-top:7.2px;
+  }
+  .contacts__location_pic{
+  width:7.2px;
+  height:9.6px;
+  }
+  .contacts__phone_pic{
+    width:7.2px;
+    height:9.6px;
+  }
+  .contacts__mail_pic{
+    width:9.6px;
+    height:7.2px;
+  }
+  .contacts__text{
+    font-size: 6.48px;
+    margin-left: 4.8px;
+  }
+  .bottom_section__content__form{
+    margin-left:33.6px;
+  }
+  .form-row>.col{
+    padding-right: 4.8px;
+  }
+  .form-row>[class*=col-]{
+    padding-left: 4.8px;
+    width: 120px;
+  }
+  .form-row>.col, .form-row>[class*=col-]{
+    margin-bottom: 7.2px;
+    width: 120px;
+  }
+  .form-control{
+    margin-top: 7.2px;
+    font-size: 7.2px;
+    height: 19.6px;
+    padding: .1rem .3rem;
+    border-radius: 0.1rem;
+  }
+  .form_buttons{
+    margin-top: 8.16px;
+  }
+  .btn-info{
+    font-size: 7.2px;
+    height: 24px;
+    width: 60px;
+    padding: 0px;
+  }
+  .btn-primary{
+    font-size: 7.2px;
+    height: 24px;
+    width: 60px;
+    padding: 0px;
+  }
+  .form-control::placeholder{
+    color: #bec5cb;
+    font-size: 7.2px;
+  }
+  .custom-select{
+    font-size: 7.2px;
+    height: 19.6px;
+    padding: 0 0.3rem;
+    background-size:22px;
+    border-radius: 0.1rem;
+    margin: 0px 1px;
+  }
+  .bottom_triangle{
+    height:14.4px;
+    width:14.4px;
+  }
+  /* СЕКЦИЯ АВТОРСТВА */
+  .footer_section{
+    width:768px;
+  }
+  .footer_section__content{
+    width:451.2px;
+  }
+  .footer_section__content__text{
+    font-size: 6.48px;
+    margin: 33.6px 0px;
+  }
 }
 @media all and (max-width: 426px){
   body{
@@ -571,11 +906,11 @@ background-size: 100%;
     height:22.6px;
   }
   .advantages__love_pic{
-    widows: 24px;
+    width: 24px;
     height:22.876px;
   }
   .advantages__responsive_pic{
-    widows: 24px;
+    width: 24px;
     height:22.876px;
   }
   
@@ -723,8 +1058,9 @@ background-size: 100%;
   .form-control{
     margin-top: 4px;
     font-size: 4px;
-    height: 18.6px;
+    height: 11.6px;
     padding: .1rem .3rem;
+    border-radius: 0.1rem;
   }
   .form_buttons{
     margin-top: 4.5px;
@@ -747,9 +1083,12 @@ background-size: 100%;
   }
   .custom-select{
     font-size: 4px;
-    height: 18.6px;
+    height: 11.6px;
     padding: 0 0.3rem;
-    background-size:20px;
+    background-size:11px;
+    border-radius: 0.1rem;
+    margin: 0px 1px;
+
   }
   .bottom_triangle{
     height:8px;
@@ -1045,9 +1384,10 @@ background-size: 100%;
   }
   .form-control{
     margin-top: 3.51px;
-    font-size: 3.51px;
+    font-size: 11.51px;
     height: 16.4px;
     padding: .1rem .3rem;
+    border-radius: 0.1rem;
   }
   .form_buttons{
     margin-top: 4px;
@@ -1070,9 +1410,11 @@ background-size: 100%;
   }
   .custom-select{
     font-size: 3.51px;
-    height: 16.38px;
+    height: 9.38px;
     padding: 0 0.3rem;
-    background-size:17.55px;
+    background-size:10.55px;
+    border-radius: 0.1rem;
+    margin: 0px 1px;
   }
   .bottom_triangle{
     height:7px;
