@@ -451,7 +451,332 @@ background-size: 100%;
   color: white;
   margin: 70px 0px;
 }
+
 @media all and (max-width: 1025px){
+  body{
+    width: 1024px;
+    margin: 0 auto;
+    font-weight: 400;
+    font-size: 10.24px;
+  }
+  h1{
+    font-size: 44.8px;
+  }
+  p{
+    font-size: 10.24px
+  }
+  /* ВЕРХНЯЯ СЕКЦИЯ С ФОНОМ */
+  .bg{
+    height: 563.2px;
+    filter: blur(5px);
+    /* width:320px; */
+    max-width: 100%;
+    background-size: 100%
+  }
+  .header_section{
+    height: 524.8px;
+    width:1024px;
+  }
+  .header_section__content{
+    width:601.6px;
+    margin-top: 44.8px;
+    top:0.1px;
+  }
+  .header_section__content__logo_navbar{
+    width: 100%;
+  }
+  .header_section__content__logo_navbar__navbar{
+    width: 100%;
+  }
+  .header_section__content__logo_navbar__logo{
+    height: 41.6px;
+    width: 102.4px;
+    font-size:3.2px;
+  }
+  .logo{
+    margin-top: -2.7px;
+    font-size:32px;
+  }
+  .navbar-expand-lg .navbar-nav .nav-link{
+    padding-left: 1rem;
+  }
+  .nav-link{
+    line-height: 2;
+  }
+  .nav-link:after{
+    height: 1.92px;
+  }
+  .navbar-toggler {
+    padding: .05rem .15rem;
+    font-size: 0.25rem;
+  }
+  .header_section__content__promo__ipad{
+    width: 265.6px;
+    height: 345.6px;
+  }
+  .header_section__content__promo{
+    margin-top:118.4px;
+    width:601.6px;
+  }
+  .header_section__content__promo__content{
+    margin: 38.4px 4.3% 0px;
+    width: 45%;
+  }
+  .promo__content__header{
+    font-size: 17.28px;
+    padding-bottom: 19.2px;
+  }
+  .promo__content__content{
+    font-size: 9.92px;
+  }
+  .promo__content__buttons{
+    height: 37.12px;
+    margin-top: 40.35px;
+    width: 100%;
+  }
+  .btn-primary{
+    width:109.7px;
+  }
+  .btn-info{
+    width:109.44px;
+  }
+  .promo__content__or{
+    height:19.2px;
+    width:19.2px;
+    margin:6.4px 0px;
+    padding-top: 1.28px;
+    left: 61.4%;
+  }
+  .header_section__content__about{
+    margin-top: 73.6px;
+    width:100%;
+  }
+  .about__text__header{
+    font-size: 16.64px;
+    margin-bottom: 19.2px;
+  }
+  .about__text__content{
+    font-size: 9.92px;
+  }
+  .header_section__about__stats{
+    margin-bottom: 6.4px;
+    width: 44%;
+  }
+  .header_section__content__advantages{
+    margin: 131.2px 0px 20px;
+    width:601.6px;
+  }
+  .about__stats__pic{
+  width:90.88px;
+  height:90.88px;
+  }
+  .about__stats__pic_small{
+    width:51.84px;
+    height:53.12px;
+  }
+  .advantages__browser_pic{
+    width:63.36px;
+    height:54.4px;
+  }
+  .advantages__love_pic{
+    width:57.6px;
+    height:55.04px;
+  }
+  .advantages__responsive_pic{
+    width:57.6px;
+    height:55.04px;
+  }
+  
+  
+  .figcaption_header{
+    font-size: 12.8px;
+    margin-top: 16px;
+  }
+  .figcaption_body{
+    font-size: 8.64px;
+    margin-top: 16px;
+  }
+  /* СРЕДНЯЯ СЕКЦИЯ С ФОНОМ */
+  .bg1{
+    height: 329.6px;
+    filter: blur(1px);
+    width:1024px;
+    background-size: 100%
+  }
+  .body_section{
+    height: 631.68px;
+    width:1024px;
+  }
+  .body_section__content{
+    width:601.6px;
+    top:1200px;
+  }
+  .carousel_text{
+    top: 1128.32px;
+    width: 45%;
+  }
+  .carousel_text__header{
+    font-size: 17.28px;
+  }
+  .carousel_text__body{
+    font-size: 9.92px;
+    margin-bottom: 64px;
+  }
+  .carousel-control-next-icon, .carousel-control-prev-icon {
+    width: 34px;
+    height: 54.4px;
+  }
+  .carousel-control-prev {
+    left: -39.68px;
+  }
+  .carousel-control-next {
+    right: -39.68px;
+  }
+  .carousel-control-next, .carousel-control-prev {
+    top: -208px;
+  }
+  .body_section__content__comment_header{
+    margin-bottom: 44.8px;
+  }
+  .body_section__content__comment_content{
+    margin-bottom:64px;
+  }
+  .comment{
+    margin-bottom:22.4px;
+  }
+  .comment_hexagon1{
+    height: 99.84px;
+    width: 90.88px;
+  }
+  .comment_hexagon2{
+    height: 99.84px;
+    width: 90.88px;
+  }
+  .comment_hexagon3{
+    height: 99.84px;
+    width: 90.88px;
+  }
+  .comment_hexagon4{
+    height: 99.84px;
+    width: 90.88px;
+  }
+  .comment_hexagon5{
+    height: 99.84px;
+    width: 90.88px;
+  }
+  .comment_hexagon6{
+    height: 99.84px;
+    width: 90.88px;
+  }
+  .comment_text{
+    margin-left:16px;
+  }
+  .comment_header{
+    font-size:12.8px;
+    margin-top:16px;
+  }
+  .comment_body{
+    font-size:8.64px;
+    margin-top:16px;
+  }
+  /* СЕКЦИЯ КОНТАКТОВ */
+  .bottom_section{
+    width:1024px;
+  }
+  .bottom_section__content{
+    margin: 70.4px 0px 73.6px;
+    width:601.6px;
+  }
+  .contacts__header{
+    font-size: 12.8px;
+  }
+  .contacts__content{
+    margin-top: 38.4px;
+    font-size: 8.96px;
+    margin-bottom: 25.6px;
+  }
+  .contacts__item{
+    margin-top:9.6px;
+  }
+  .contacts__location_pic{
+  width:9.6px;
+  height:12.8px;
+  }
+  .contacts__phone_pic{
+    width:9.6px;
+    height:12.8px;
+  }
+  .contacts__mail_pic{
+    width:12.8px;
+    height:9.6px;
+  }
+  .contacts__text{
+    font-size: 8.64px;
+    margin-left: 6.4px;
+  }
+  .bottom_section__content__form{
+    margin-left:44.8px;
+  }
+  .form-row>.col{
+    padding-right:6.4px;
+  }
+  .form-row>[class*=col-]{
+    padding-left: 6.4px;
+    width: 160px;
+  }
+  .form-row>.col, .form-row>[class*=col-]{
+    margin-bottom: 9.6px;
+    width: 160px;
+  }
+  .form-control{
+    margin-top: 9.6px;
+    font-size: 9.6px;
+    height: 26.14px;
+    padding: .1rem .3rem;
+    border-radius: 0.1rem;
+  }
+  .form_buttons{
+    margin-top: 10.88px;
+  }
+  .btn-info{
+    font-size: 9.6px;
+    height: 32px;
+    width: 80px;
+    padding: 0px;
+  }
+  .btn-primary{
+    font-size: 9.6px;
+    height: 32px;
+    width: 80px;
+    padding: 0px;
+  }
+  .form-control::placeholder{
+    color: #bec5cb;
+    font-size: 9.6px;
+  }
+  .custom-select{
+    font-size:9.6px;
+    height: 26.13px;
+    padding: 0 0.3rem;
+    background-size:29.3px;
+    border-radius: 0.1rem;
+    margin: 0px 1px;
+  }
+  .bottom_triangle{
+    height:19.2px;
+    width:19.2px;
+  }
+  /* СЕКЦИЯ АВТОРСТВА */
+  .footer_section{
+    width:1024px;
+  }
+  .footer_section__content{
+    width:601.6px;
+  }
+  .footer_section__content__text{
+    font-size: 8.64px;
+    margin: 44.8px 0px;
+  }
 }
 @media all and (max-width: 769px){
   body{
@@ -1388,6 +1713,9 @@ background-size: 100%;
     height: 16.4px;
     padding: .1rem .3rem;
     border-radius: 0.1rem;
+  }
+  textarea.form-control {
+      height: 55px;
   }
   .form_buttons{
     margin-top: 4px;
