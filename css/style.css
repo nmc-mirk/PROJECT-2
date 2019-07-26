@@ -429,14 +429,28 @@ background-size: 100%;
 .btn-primary{
   margin-right: 4.5%;
 }
-.bottom_triangle{
+.bottom_triangle{/* 
   height:30px;
   width:30px;
   background-color: #2c3e50;
   clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
   bottom: -1%;
-  position: absolute;
-}
+  position: absolute; */
+
+  
+
+    border-radius: 10px;
+    position: relative;
+    color: #fff;
+   }
+   .bottom_triangle::after {
+    content: ''; 
+    position: absolute; /* Абсолютное позиционирование */
+    bottom: -1px; /* Положение треугольника */
+    left:-470px;
+    border: 15px solid transparent;	border-bottom: 15px solid #2c3e50;
+   }
+
 /* СЕКЦИЯ АВТОРСТВА */
 .footer_section{
   display:flex;
@@ -1747,7 +1761,7 @@ background-size: 100%;
   }
 }*/
 
-/*
+
 @media all and (max-width: 321px){
   body{
     width: 320px;
@@ -1930,6 +1944,7 @@ background-size: 100%;
   }
   .body_section__content__comment_header{
     margin-bottom: 14px;
+    margin-top: 60px;
   }
   .body_section__content__comment_content{
     margin-bottom:20px;
@@ -2051,10 +2066,12 @@ background-size: 100%;
     padding: 0 0.3rem;
     background-size:15px;
   }
-  .bottom_triangle{
-    height:6px;
-    width:6px;
-  }
+  .bottom_triangle::after {
+    content: ''; 
+    position: absolute; /* Абсолютное позиционирование */
+    left:-94px;
+    border: 3.2px solid transparent;	border-bottom: 3.2px solid #2c3e50;
+   }
   .footer_section{
     width:320px;
   }
@@ -2067,7 +2084,7 @@ background-size: 100%;
   }
 }
 
-*/
+
 
 
 
